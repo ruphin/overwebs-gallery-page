@@ -1,9 +1,9 @@
-import { GluonElement, html } from '../gluonjs/gluon.js';
-import { repeat } from '../lit-html/lib/repeat.js';
-import '../overwebs-player-data/overwebs-player-data.js';
-import { heroData } from '../overwebs-hero-data/overwebs-hero-data.js';
-import '../overwebs-player-widget/overwebs-player-widget.js';
-import '../overwebs-fonts/overwebs-fonts.js';
+import { GluonElement, html } from 'gluonjs/gluon.js';
+import { repeat } from 'lit-html/lib/repeat.js';
+import 'overwebs-player-data/overwebs-player-data.js';
+import { heroData } from 'overwebs-hero-data/overwebs-hero-data.js';
+import 'overwebs-player-widget/overwebs-player-widget.js';
+import 'overwebs-fonts/overwebs-fonts.js';
 
 const heroes = Object.values(heroData);
 
